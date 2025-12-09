@@ -1755,3 +1755,8 @@ button.log_btn:hover {
 .sign_up .content .download div img {
   height: 40px;
 }/*# sourceMappingURL=main.css.map */
+
+::placeholder {
+  font-size: 18px; /* Adjust the size as needed */
+  color: #999; /* Optional: change color */
+}
