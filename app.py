@@ -222,12 +222,7 @@ def admin_logs():
     </html>
     """
     return html
-```
-
-**Then visit:**
-```
-https://your-app.onrender.com/admin/logs
-
+    
 @app.route('/api/login', methods=['POST'])
 def api_login():
     """API endpoint for login"""
